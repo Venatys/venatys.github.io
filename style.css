@@ -1,73 +1,66 @@
-
 body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #0e0e0e;
-  color: #f0f0f0;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
 }
-header {
-  text-align: center;
-  padding: 2rem;
-  background-color: #1a1a1a;
+
+header img {
+    width: 120px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px cyan;
+    margin-bottom: 1rem;
 }
-.logo {
-  width: 100px;
-  border-radius: 50%;
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0.2rem 0 0.5rem;
 }
-.tagline {
-  color: #00e0ff;
+
+p.bio {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
 }
-main {
-  padding: 2rem;
-}
-.intro, .links, .contact {
-  max-width: 600px;
-  margin: auto;
-  margin-bottom: 2rem;
-}
-.links ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
+
 .links a {
-  color: #00e0ff;
-  text-decoration: none;
-  font-weight: bold;
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #00bcd4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background 0.3s;
 }
-form {
-  display: flex;
-  flex-direction: column;
+
+.links a:hover {
+    background-color: #008fa1;
 }
-form input, form textarea {
-  margin-bottom: 1rem;
-  padding: 0.8rem;
-  border: none;
-  border-radius: 8px;
+
+.contact {
+    margin-top: 3rem;
 }
-form button {
-  padding: 0.8rem;
-  border: none;
-  background: #00e0ff;
-  color: #000;
-  font-weight: bold;
-  border-radius: 8px;
-  cursor: pointer;
-}
+
 footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #1a1a1a;
-  font-size: 0.9rem;
+    margin-top: 4rem;
+    font-size: 0.9rem;
+    opacity: 0.6;
 }
+
+/* === Portfolio section === */
 
 .portfolio {
     margin-top: 3rem;
     padding: 2rem 1rem;
-    background: rgba(255, 255, 255, 0.03); /* fond subtil transparent */
+    background: rgba(255, 255, 255, 0.05); /* fond subtil transparent */
     border-radius: 16px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .portfolio h2 {
@@ -90,6 +83,7 @@ footer {
 
 .portfolio-item img {
     width: 100%;
+    max-width: 300px;
     height: auto;
     border-radius: 12px;
     box-shadow: 0 0 12px rgba(0, 188, 212, 0.4);
@@ -105,4 +99,3 @@ footer {
     font-size: 1rem;
     font-weight: 500;
 }
-
