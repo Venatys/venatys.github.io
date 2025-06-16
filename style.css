@@ -25,6 +25,11 @@ p.bio {
     font-size: 1.2rem;
     line-height: 1.6;
 }
+.links-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: #00bcd4;
+}
 
 .links a {
     display: inline-block;
