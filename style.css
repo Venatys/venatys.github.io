@@ -62,3 +62,47 @@ footer {
   background-color: #1a1a1a;
   font-size: 0.9rem;
 }
+
+.portfolio {
+    margin-top: 3rem;
+    padding: 2rem 1rem;
+    background: rgba(255, 255, 255, 0.03); /* fond subtil transparent */
+    border-radius: 16px;
+}
+
+.portfolio h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #00bcd4;
+}
+
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.portfolio-item {
+    max-width: 300px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 188, 212, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item img:hover {
+    transform: scale(1.03);
+}
+
+.portfolio-item p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
